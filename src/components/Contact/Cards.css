@@ -1,0 +1,8 @@
+.zoom {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.zoom:hover {
+  transform: scale(0.6);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

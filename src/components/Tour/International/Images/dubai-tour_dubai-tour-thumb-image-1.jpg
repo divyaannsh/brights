@@ -1,0 +1,1401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shine Airways</title>
+    <!-- Favicon Image -->
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.shineairways.com/assets/images/icon2/favicon.png">
+    <!-- Font and Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <!-- Links -->
+    <link rel="stylesheet" href="https://www.shineairways.com/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="https://www.shineairways.com/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.shineairways.com/assets/css/app.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Include Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <!-- Include Owl Slick CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <!-- Slick Css -->
+    <link rel="stylesheet" href="https://www.shineairways.com/assets/css/slick.css">
+    <link rel="stylesheet" href="https://www.shineairways.com/assets/css/style.css">
+    <link rel="stylesheet" href="https://www.shineairways.com/assets/css/responsive.css">
+    <link rel="stylesheet" href="https://www.shineairways.com/assets/css/toastr.min.css">
+</head>
+
+<!-- Website Pre Loader -->
+<!-- <div id="loader">
+    <div class="spinner"></div>
+</div> -->
+
+<body class="home_1">
+
+    <header class="header-section">
+        <div class="site-header">
+            <!-- Top Header Start -->
+            <div class="top-header py-md-3 py-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-5 col-12">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="last_numbar">
+                                    <a href="tel:+91-8506035512"><i class="fa fa-phone"></i> +91-8506035512</a>
+                                </div>
+                                <div class="middle_bar">
+                                    <a href="https://www.shineairways.com/apply_now.php" class="apply">Apply Jobs</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-7 col-12">
+                            <div class="header-top-right d-flex align-items-center justify-content-md-end justify-content-center mt-2 mt-md-0">
+                                <a class="pe-md-3 pe-sm-5 pe-1" href="https://www.shineairways.com/vacation_package.php"><i class="fa fa-user-plus"></i>Join Membership</a>
+                                <a class="pe-md-3 pe-sm-5 pe-1" href="https://www.shineairways.com/member_login.php"><i class="fa fa-unlock-alt"></i> Member Login</a>
+                                <button style="border: none; background: none;" class="header-booking-btn m-0 p-0" href="#"><img style="width: 22px; margin-bottom: 4px; margin-right: 2px;" src="https://www.shineairways.com/assets/images/icon/booking.png" alt="">Booking</button>
+                                <!-- booking content popup start -->
+                                <div class="header-booking-popup">
+                                    <div class="header-booking-cnt">
+                                        <div class="header-booking-cnt-top d-flex align-items-center justify-content-between">
+                                            <div class="">
+                                                <h3 class="mb-0 p-0">Booking Forms</h3>
+                                            </div>
+                                            <div class="header-booking-cnt-inner-close d-flex">
+                                                <i class="fa fa-times"></i>
+                                            </div>
+                                        </div>
+                                        <div class="header-booking-cnt-body my-3">
+                                            <ul class="">
+                                                <li> <a href="https://www.shineairways.com/property_booking.php">Property Booking</a></li>
+                                                <li> <a href="https://www.shineairways.com/banquet_booking.php">Banquet Booking</a></li>
+                                                <li> <a href="https://www.shineairways.com/redeem_voucher.php">Redeem Voucher</a></li>
+                                                <li> <a href="https://www.shineairways.com/paynow.php">Paynow</a>
+                                                <li> <a href="https://www.shineairways.com/refer_friend.php">Refer a friend</a>
+                                                <li> <a href="https://www.shineairways.com/meeting_code.php">Meeting Code</a>
+                                                <li> <a href="https://www.shineairways.com/vacation_package.php">Join Membership</a>
+                                                <li> <a href="https://www.shineairways.com/member_login.php">Member Login</a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- booking content popup end -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Top Header End -->
+
+            <!-- Navigation start  -->
+            <nav class="navbar justify-content:normal">
+                <div class="container">
+                    <a href="https://www.shineairways.com/index.php" class="navbar-brand logo"><img src="https://www.shineairways.com/assets/images/icon/shine-logo.png" alt="logo" style="width:120px"></a>
+                    <div class="main-menu">
+                        <ul>
+                            <li><a href="https://www.shineairways.com/index.php">HOME</a></li>
+                            <li><a href="https://www.shineairways.com/about_us.php">ABOUT US</a></li>
+                            <div class="dropdown">
+                                <div class="dropdown">
+                                    <li><a href="#">SERVICES</a></li>
+                                    <div class="dropdown-content">
+                                        <a href="https://www.shineairways.com/services.php">Our Services</a>
+                                        <a href="https://www.shineairways.com/vacation_package.php">Vacation Package</a>
+                                        <a href="https://www.shineairways.com/why_vacation.php">Why Vacation </a>
+                                        <a href="https://www.shineairways.com/events.php">Events</a>
+                                        <a href="https://www.shineairways.com/tourist-visa.php">Tourist Visa</a>
+                                        <a href="https://www.shineairways.com/student-visa.php">Student Visa</a>
+                                        <a href="https://www.shineairways.com/counselling.php">Counselling</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <div class="dropdown">
+                                    <li><a href="#">PACKAGES</a></li>
+                                    <div class="dropdown-content">
+                                        <a href="https://www.shineairways.com/deal_of_the_day.php">Deal Of The Day</a>
+                                        <a href="https://www.shineairways.com/domestic-packages.php">Domestic Packages</a>
+                                        <a href="https://www.shineairways.com/international-packages.php">International Packages</a>
+                                        <a href="https://www.shineairways.com/honeymoon-packages.php">Honeymoon Packages</a>
+                                        <a href="https://www.shineairways.com/family-packages.php">Family Packages</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <li><a href="https://www.shineairways.com/career.php">CAREER</a></li>
+                            <li><a href="https://www.shineairways.com/contact_us.php">CONTACT US</a></li>
+                            <li><a href="https://www.shineairways.com/academy.php">ACADEMY</a></li>
+                            <li><a href="https://www.shineairways.com/franchise.php">FRANCHISE</a></li>
+                        </ul>
+                    </div>
+                    <div class="head-login">
+                        <button type="button" class="btn-login mt-0 py-1" data-toggle="modal" data-target="#myModal" style="letter-spacing: 0.5px;">Login</button>
+                    </div>
+                    <div class="mobile-menu ml-auto">
+                        <div class="menu-click"><img src="https://www.shineairways.com/assets/images/icon/toggle.png" alt=""></div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navigation End -->
+        </div>
+
+        <!-- Login and Signup Modal Popup Start -->
+        <div class="modal fade login_popup_modal login-slide-section right" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog login_popup_wrapper login-slide-wrapper">
+                <div class="modal-content login_popup_content vh-100 login-slide-content bg-white">
+                    <div class="modal-header login_popup_header w-100 px-4 py-lg-1 py-2">
+                        <div class="d-flex align-items-center justify-content-between w-100 h-100 mx-2">
+                            <div><img src="assets/images/icon/shine-logo.png" alt="logo" class="form_logo pb-0 ms-0"></div>
+                            <div><button type="button" class="close py-0 px-2 mt-0" data-dismiss="modal" aria-label="Close"><span style="font-size: 28px; line-height: 32px;" aria-hidden="true">&times;</span></button></div>
+                        </div>
+                    </div>
+                    <div class="modal-body login-slide-body login_popup_body w-100 h-100">
+                        <div class="d-block" id="login_popup_form">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="login_popup_body_head">
+                                        <div class="login-button-container clearfix mx-md-5 mx-4 mb-0">
+                                            <button class="btn_form sign-in__button login-slide-btn active">Login</button>
+                                            <button class="btn_form register__button signup-slide-btn">Sign Up</button>
+                                        </div>
+                                    </div>
+                                    <div class="pt-2 px-md-3 px-1">
+                                        <div class="row login__form pt-md-4 pt-3 px-2">
+                                            <form action="" novalidate="">
+                                                <div class="login-slide-cnt">
+                                                    <div class="form-group">
+                                                        <label for="loginEmail" style="font-weight: bolder;">Email</label>
+                                                        <input type="email" id="loginEmail" placeholder="Enter email" class="form-control">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="loginPassword" style="font-weight: bolder;">Password</label>
+                                                        <input type="password" id="loginPassword" placeholder="Password" class="form-control">
+                                                    </div>
+                                                    <div class="col-12 d-flex justify-content-start mb-2 mb-md-0">
+                                                        <button type="submit" class="btn btn-primary login_btn mt-md-1 mt-3">Login</button>
+                                                    </div>
+                                                    <div class="col-12 d-flex align-items-center justify-content-end login-slide-forget">
+                                                        <a href="#" class="fw-bold text-decoration-underline" id="login_popup_forgot_btn">Forget Password</a>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="d-flex align-items-center justify-content-center py-5">
+                                                            <span class="login-slide-act-opt">Don't have an account?
+                                                                <a href="#" class="ps-2 fw-bold text-decoration-underline btn_form register__button signup-slide-btn" style="color:#fc790d; background:none; border:none; padding: 0px;display: contents;">Create an account</a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="row register__form" style="display: none;">
+                                            <div id="registration-form-wrapper">
+                                                <form novalidate="">
+                                                    <div class="signup-slide-cnt">
+                                                        <div class="form-group">
+                                                            <label for="signupName" style="font-weight: bolder;">Name</label>
+                                                            <input type="text" id="signupName" placeholder="Enter Your Name" class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="signupEmail" style="font-weight: bolder;">Email</label>
+                                                            <input type="email" id="signupEmail" placeholder="Enter email" class="form-control">
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="form-group col-lg-6">
+                                                                <label for="loginPassword" style="font-weight: bolder;">Mobile</label>
+                                                                <input type="tel" id="" placeholder="Mobile Number" class="form-control">
+                                                            </div>
+                                                            <div class="form-group col-lg-6">
+                                                                <label for="signupPassword" style="font-weight: bolder;">Password</label>
+                                                                <input type="password" id="signupPassword" placeholder="Password" class="form-control">
+                                                            </div>
+                                                            <div class="form-group col-lg-6">
+                                                                <label for="loginPassword" style="font-weight: bolder;">Confirm Password</label>
+                                                                <input type="password" id="loginPassword" placeholder="Confirm Password" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12 d-flex justify-content-start">
+                                                            <button type="submit" class="btn btn-primary login_btn">Sign Up</button>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="d-flex align-items-center justify-content-center py-3">
+                                                                <span class="login-slide-act-opt">Already have an account?
+                                                                    <a href="#" class="fw-bold text-decoration-underline btn_form sign-in__button login-slide-btn" style="color: #022f5d; background:none; border:none; padding: 0px;display: contents;">Login Now</a>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-none" id="login_popup_forgot">
+                            <div class="row">
+                                <div class="col-12 mt-4">
+                                    <div class="forget-slide-box p-3">
+                                        <div class="forget-slide-head">
+                                            <h5 class="mb-1">Forget your password?</h5>
+                                            <p>Enter the email address you used to <strong>Sign up</strong> with.</p>
+                                        </div>
+                                        <div class="forget-slide-cnt">
+                                            <form id="forgot-password-form">
+                                                <div class="form-group forget-sliide-input">
+                                                    <label class="pt-4 pb-2" for="email">Enter your email address</label>
+                                                    <input class="form-control" type="email" id="email" name="email" placeholder="Enter Your Email" required="">
+                                                </div>
+                                                <div class="forget-slide-reset pt-2">
+                                                    <button type="submit" class="btn btn-primary reset-btn rounded border-2" id="login_popup_reset_btn">Reset password</button>
+                                                </div>
+                                                <div class="d-flex align-items-center justify-content-start pt-5">
+                                                    <span class="login-slide-act-opt"> Wait, I remember my password.
+                                                        <a href="#" class="fw-bold text-decoration-underline btn_form sign-in__button login-slide-btn forget-return-btn" id="login_popup_return_btn" style="color: #022f5d; background:none; border:none; padding: 0px;display: contents;">Login Now</a>
+                                                    </span>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-none" id="login_popup_otp">
+                            <div class="row">
+                                <div class="col-12 mt-3">
+                                    <div class="forget-slide-box p-3">
+                                        <div class="forget-slide-head">
+                                            <h5 class="mb-1">Reset password?</h5>
+                                            <p>We sent a code to <strong>Email</strong>.</p>
+                                        </div>
+                                        <div class="forget-slide-cnt">
+                                            <form id="forgot-password-form">
+                                                <div class="otp-container otp-field-box mt-4">
+                                                    <h5 class="mb-0 fw-bold fs-5">Enter OTP</h5>
+                                                    <!-- <div class="otp-fields d-flex align-items-center gap-md-4 gap-3 py-md-3 py-2">
+                                                        <input type="text" maxlength="1" class="otp-field" id="otp1" oninput="moveFocus(1)">
+                                                        <input type="text" maxlength="1" class="otp-field" id="otp2" oninput="moveFocus(2)">
+                                                        <input type="text" maxlength="1" class="otp-field" id="otp3" oninput="moveFocus(3)">
+                                                        <input type="text" maxlength="1" class="otp-field" id="otp4" oninput="moveFocus(4)">
+                                                    </div> -->
+                                                    <div class="otp-fields d-flex align-items-center gap-md-4 gap-3 py-md-3 py-2">
+                                                        <input type="text" maxlength="1" id="otp-1" class="otp-input">
+                                                        <input type="text" maxlength="1" id="otp-2" class="otp-input" disabled>
+                                                        <input type="text" maxlength="1" id="otp-3" class="otp-input" disabled>
+                                                        <input type="text" maxlength="1" id="otp-4" class="otp-input" disabled>
+                                                    </div>
+                                                    <div class="pt-2 otp-slide-submit">
+                                                        <button onclick="submitOTP()" class="btn btn-primary submit-otp-btn rounded border-2" id="login_popup_otp_submit_btn">Submit OTP</button>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex align-items-center justify-content-center pt-5">
+                                                    <span class="login-slide-act-opt"><i class="fa fa-long-arrow-left p-2" aria-hidden="true"></i>
+                                                        <a href="#" class="back-login fw-medium text-decoration-underline" id="login_popup_otp_return_btn" style="color: #022f5d; background:none; border:none; padding: 0px;display: contents;">Back to Login</a>
+                                                    </span>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-none" id="login_popup_new_pswd">
+                            <div class="row">
+                                <div class="col-12 mt-3">
+                                    <div class="new-pswd-slide-box p-3">
+                                        <div class="new-pswd-slide-head">
+                                            <h5 class="mb-1">Create New password?</h5>
+                                            <span>Your new password must be different to previously used passwords. </span>
+                                        </div>
+                                        <div class="new-pswd-slide-cnt">
+                                            <form id="new-pswd-form">
+                                                <div class="new-pswd-field-box mt-5">
+                                                    <form action="/submit-password" method="POST">
+                                                        <!-- Password field -->
+                                                        <div class="form-group">
+                                                            <label for="newPassword" style="font-weight: bolder;">New Password:</label>
+                                                            <input type="password" id="newPassword" name="newPassword" placeholder="Enter your new password" required="" class="form-control">
+                                                        </div>
+                                                        <!-- Confirm Password field -->
+                                                        <div class="form-group">
+                                                            <label for="confirmPassword" style="font-weight: bolder;">Confirm Password:</label>
+                                                            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your new password" required="" class="form-control">
+                                                        </div>
+                                                        <div class="d-flex justify-content-center mb-2 mb-md-0 new-pswd-btn-box pt-4">
+                                                            <button type="submit" class="btn btn-primary new-pswd-btn" id="login_popup_new_pswd_continue_btn">Continue</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-none" id="login_popup_done">
+                            <div class="row">
+                                <div class="col-12 mt-4">
+                                    <div class="new-pswd-slide-box p-3 text-center">
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <div style="width:100px;" class="text-center">
+                                                <img src="assets/images/icon/password-done.gif" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="new-pswd-slide-head pt-3 text-center">
+                                            <h5 class="my-3">Password Reset</h5>
+                                            <span class="mt-3">Your password has been successfully reset.</span>
+                                        </div>
+                                        <div class="new-pswd-slide-cnt">
+                                            <form id="new-pswd-form">
+                                                <div class="new-pswd-field-box mt-2">
+                                                    <div class="d-flex justify-content-center mb-2 mb-md-0 pswd-cnfm-btn-box pt-4">
+                                                        <a href="#" class="back-login fw-medium btn btn-primary pswd-cnfm-btn" id="login_popup_done_btn">Done</a>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Login and Signup Modal Popup End -->
+
+    </header>
+
+    <!-- Your Website Pre Loader Content -->
+<!-- <div id="content" style="display: none;"> -->
+<!-- All your website content goes here -->
+
+
+
+
+<main>
+
+    <!-- About Banner Section -->
+    <section class="about-us">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-item-new active" data-bs-interval="10000">
+                    <img src="assets\images\banner\about.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder Section -->
+    <section class="pb-xl-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading pb-lg-4 pb-md-3 pb-sm-3 pb-2 pt-lg-5 pt-md-4 pt-4 about-heading">
+                        <h1 class="m-0">FOUNDER</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container box-border about-box-border">
+            <div class="row py-4 px-2 align-items-center flex-column-reverse flex-lg-row">
+                <div class="col-lg-8">
+                    <div class="journey-text about-content-text">
+                        <h2>Mr. Kailash Chand</h2>
+                        <p>Embark on a breathtaking journey with Shine Airways, the brainchild of Mr.Kailash Chand.
+                            Established in 2019 under the prestigious COSWAY Enterprise brand, Shine Airways is a
+                            testament to one person's determination and passion for aviation. From humble beginnings, Mr.
+                            Chand single-handedly launched an awe-inspiring marketing campaign, tirelessly putting up
+                            posters at night and personally attending to every call during the day.
+                            Experience the fruits of his labor as you step aboard Shine Airways' world-class fleet, where
+                            luxury and comfort await you at 30,000 feet. Immerse yourself in unparalleled service and
+                            indulge in exquisite amenities that redefine the art of travel.
+                            Whether you're jetting off for a business meeting or embarking on an unforgettable vacation,
+                            Shine Airways promises to exceed your expectations with unrivaled attention to detail and a
+                            commitment to delivering exceptional experiences.
+                            Join us as we soar above the clouds, because at Shine Airways, your journey is our passion.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="founder-img mb-3 mb-sm-4 mb-md-4 mb-lg-0 founder-image">
+                        <img src="assets/images/shine_owner_2.jpg" class="img-fluid pt-0" height="100%" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Journey Section -->
+    <section class="pb-md-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading pb-md-4 pb-3 pt-md-5 pt-4 about-heading">
+                        <h1 class="m-0">OUR JOURNEY</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container box-border about-box-border">
+            <div class="row py-4 px-2">
+                <div class="col-lg-6">
+                    <div class="founder-img py-xl-3 mb-0 mb-sm-4 mb-md-0 about-founder-img">
+                        <img src="assets/images/banner/web-banner.jpg" class="img-fluid pt-0" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="journey-text about-content-text mt-lg-0 mt-4">
+                        <h2 class="my-lg-2 my-0">Shine Airways</h2>
+                        <p class="pt-xl-3 pt-md-0 pt-2">In 2019, Mr. Kailash Chand embarked on the journey of Shine Airways, commencing it
+                            under the banner of COSWAY Enterprise. With no collaborators, he took charge of the marketing
+                            crusade, adorning nocturnal streets with posters while tending to daylong calls himself. His
+                            relentless dedication drove the airline's initial strides, forging a path marked by individual commitment.
+                        </p>
+
+                        <p>From the moment you step on board, you are welcomed with warm
+                            smiles and exceptional service. Shine Airways truly lives up to its name, making every trip a bright and memorable adventure.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shine Certificate Section -->
+    <section class="pb-md-5 pb-4">
+        <div class="container box-border about-box-border">
+            <div class="row py-4 px-2 flex-column-reverse flex-md-row">
+                <div class="col-lg-6">
+                    <div class="journey-text about-content-text">
+                        <h2 class="my-lg-2 my-0">Bharat Gaurav Ratna Shri Sammaan Council Certificate For Shine Airways.</h2>
+                        <p class="pt-xl-3 pt-md-0 pt-2">
+                            The Bharat Gaurav Ratna Shri Sammaan Council Certificate is a prestigious award aimed at honoring individuals and organization.
+                        </p>
+                        <p class="pt-xl-3 pt-md-0 pt-2">
+                            One can imagine how inspiring it would be for a previously unnoticed achiever to receive national level praise from such powerful figures.
+                            This will only strengthen their purpose and will encourage them to do more.
+                        </p>
+                        <p class="pt-xl-3 pt-md-0 pt-2">
+                            The Bharat Gaurav Ratna Shri Award Council has two goals in mind when it confers the Bharat Gaurav Ratna Shri Awards and Lifetime Achievement Awards;
+                            identifying and recognizing talented citizens who have contributed incredibly for national development.
+                        </p>
+                        <p class="pt-xl-3 pt-md-0 pt-2">
+                            The Bharat Gaurav Ratna Shri Award Council is extremely pleased to share that the Bharat Gaurav Ratna Shri Awards are supported by eminent personalities,
+                            Union Ministers, Members of Parliament, IAS officers, IPS officers, Governors, Chief Ministers.
+                        </p>
+                        <p class="pt-xl-3 pt-md-0 pt-2">
+                            The Bharat Gaurav Ratna Shri Award Council is a non-profit organisation registered with the Delhi Government's National Capital Territory.
+                            Approved by the Government of India's NITI Aayog and a member of the Quality Council of India it is also ISO 9001:2015 certified.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="founder-img py-xl-3 mb-md-0 mb-4 about-founder-img mt-lg-0 mt-sm-4 mt-0">
+                        <img src="assets/images/document/travel_shine_airways_certificate_1.jpg" class="img-fluid pt-0" alt="tsa-certificate" style="height: auto;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pb-md-5 pb-4">
+        <div class="container box-border about-box-border">
+            <div class="row py-4 px-2 flex-md-row">
+                <div class="col-lg-6">
+                    <div class="founder-img py-xl-3 mb-md-0 mb-sm-4 mb-0 about-founder-img mt-sm-4 mt-md-0">
+                        <img src="assets/images/document/travel_shine_airways_certificate_2.jpg" class="img-fluid pt-0" alt="tsa-certificate" style="height: auto;">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="journey-text about-content-text mt-lg-0 mt-4">
+                        <h2 class="my-lg-2 my-0">World Human Rights Protection Commission Certificate For Shine Airways.</h2>
+                        <p class="pt-xl-3 pt-md-0 pt-2">
+                            Shine Airways has always been committed to providing the highest standards of care, dignity, and respect to its passengers and staff.
+                            In recognition of these efforts, the World Human Rights Protection Commission (WHRPC) has awarded Shine Airways a prestigious certificate of excellence.
+                        </p>
+                        <p class="pt-xl-3 pt-md-0 pt-2">
+                            The World Human Rights Protection Commission acknowledges organizations that promote fairness, equality, and respect for all individuals.
+                            Shine Airways stood out for its strict adherence to human rights principles, ensuring a safe, inclusive, and non-discriminatory environment for travelers and employees alike.
+                        </p>
+                        <p class="pt-xl-3 pt-md-0 pt-2">
+                            This certificate highlights Shine Airways' dedication to supporting equal opportunity, protecting the rights of individuals with disabilities,
+                            respecting diverse cultures, and promoting a workplace free from harassment and prejudice.
+                        </p>
+                        <p class="pt-xl-3 pt-md-0 pt-2">
+                            As Shine Airways looks toward the future, the airline remains firmly committed to championing human rights across the aviation industry.
+                            This recognition inspires Shine Airways to soar even higher in its mission to deliver service that honors every human being’s rights and freedoms.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pb-md-5 pb-4">
+        <div class="container box-border about-box-border">
+            <div class="row py-4 px-2 flex-column-reverse flex-md-row">
+                <div class="col-lg-6">
+                    <div class="journey-text about-content-text">
+                        <h2 class="my-lg-2 my-0">Bharat Gaurav Ratna Shri Sammaan Award Certificate For Shine Airways.</h2>
+                        <p class="pt-xl-3 pt-md-0 pt-2">
+                            Shine Airways has added another feather to its cap by receiving the prestigious Bharat Gaurav Ratna Shri Sammaan Award Certificate.
+                            This honor recognizes organizations that have made significant contributions to national pride and excellence across industries.
+                        </p>
+                        <p class="pt-xl-3 pt-md-0 pt-2">
+                            The Bharat Gaurav Ratna Shri Sammaan celebrates those who uphold the values of service, commitment, and innovation.
+                            Shine Airways has been acknowledged for its outstanding service in the aviation sector, consistently delivering excellence, safety, and customer satisfaction.
+                        </p>
+                        <p class="pt-xl-3 pt-md-0 pt-2">
+                            This award is a testament to Shine Airways’ dedication to not only offering world-class travel experiences but also promoting India’s reputation for hospitality, professionalism, and human values on a global platform.
+                        </p>
+                        <p class="pt-xl-3 pt-md-0 pt-2">
+                            As Shine Airways continues its journey, this award serves as a proud reminder of its mission — to shine brighter every day and to represent the spirit and excellence of India in every flight it operates.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="founder-img py-xl-3 mb-md-0 mb-4 about-founder-img mt-lg-0 mt-sm-4 mt-0">
+                        <img src="assets/images/document/travel_shine_airways_certificate_3.jpg" class="img-fluid pt-0" alt="tsa-certificate" style="height: auto;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- company rating section -->
+    <section class="pb-md-5 pb-4">
+        <div class="container box-border about-box-border">
+            <div class="row py-4 px-2">
+                <div class="col-md-5">
+                    <div class="founder-img py-xl-3 mb-4 mb-md-0">
+                        <div class="rating-content">
+                            <div class="rating-heading">
+                                <h3 class="p-0 m-0">Shine <strong style="color: #f87115;">Reviews.</strong></h3>
+                            </div>
+                            <div class="rating-number mt-2 d-flex align-items-center justify-content-start gap-3">
+                                <h1 class="p-0 m-0">4.1</h1>
+                                <div class="rating-icon">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="rating-text mt-2">
+                                <h5 class="mb-0">84% would recommend to a friend</h5>
+                                <span>[Based on 1,234 reviews]</span>
+                            </div>
+                            <div class="rating-approve mt-3 d-flex align-items-center justify-content-start gap-4">
+                                <div class="rating-approve-img">
+                                    <img src="assets/images/icon/man-image.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="rating-approve-text">
+                                    <h3 class="p-0 m-0">Sunil Mathur</h3>
+                                    <span>90% Appoved By Senior Manager</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="journey-text about-content-text">
+                        <h2 class="my-lg-2 my-0">Shine Airways Company <strong style="color: #f87115;">Rating Profile.</strong></h2>
+                        <p class="pt-xl-3 pt-md-0 pt-2">Travel Shine Airways Private Limited has garnered a commendable rating of <strong class="fw-bold">4.1</strong> out of 5 stars,
+                            reflecting a generally positive perception among its reviewers. This rating suggests satisfaction with the company's
+                            services, work culture, or offerings, making it a noteworthy choice for those considering its services or
+                            employment opportunities. However, as with any organization, individual experiences may vary, so it's always a good idea to explore detailed reviews for a comprehensive understanding.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="pb-md-5 pb-4">
+        <div class="container box-border about-box-border">
+            <div class="row py-4 px-2 flex-column-reverse flex-md-row">
+                <div class="col-lg-6">
+                    <div class="journey-text about-content-text">
+                        <h2 class="my-lg-2 my-0">The Story Behind Shine Airways</h2>
+                        <p class="pt-xl-3 pt-md-0 pt-2">Mr. Kailash Chand vision was to create a travel company that would provide a
+                            hassle-free and enjoyable experience for all its customers. He believed that everyone deserved
+                            to explore new places and create memories that would last a lifetime. With this in mind, Mr.
+                            Chand founded Shine Airways in 2019, with a mission to provide affordable and quality travel
+                            services to its customers.
+                        </p>
+                        <p class="pt-1">Shine Airways was founded with a vision to make air travel more comfortable, safe, and accessible for everyone.
+                            Driven by a passion for excellence and innovation, the airline quickly became a trusted name in aviation.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="founder-img py-xl-3 mb-md-0 mb-4 about-founder-img mt-lg-0 mt-sm-4 mt-0">
+                        <img src="assets/images/banner/Shine Airways web banner.jpg" class="img-fluid pt-0" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Shine Section -->
+    <section class="pb-md-5 pb-5">
+        <div class="container box-border about-box-border">
+            <div class="row py-4 px-2">
+                <div class="col-lg-6">
+                    <div class="founder-img py-xl-3 mb-md-0 mb-4 about-founder-img">
+                        <img src="assets/images/banner/fancy.jpg" class="img-fluid pt-0" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="journey-text about-content-text mt-lg-0 mt-4">
+                        <h2 class="my-lg-2 my-0">Journey with Shine Airways</h2>
+                        <p class="pt-2">Ready for an unforgettable journey?</p>
+                        <p class="pt-xl-2">Look no further than Shine Airways! We are dedicated to making travel dreams a
+                            reality by offering affordable and personalized travel packages. Our team of experts
+                            meticulously curates each package to ensure that every aspect of your trip exceeds expectations.
+                            Plus, with our nationwide network of certified travel agents, you'll receive exceptional
+                            assistance from start to finish. Don't miss out on the opportunity to explore the world - we're
+                            here to make travel accessible and affordable for everyone. Book your next adventure with Shine Airways today.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Dest Section -->
+    <section class="about-dest-section py-lg-5 py-md-4 py-3" style="background-color: #fff4ec;">
+        <div class="container">
+            <div class="about-dest-box">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="about-dest-left mt-lg-3">
+                            <h3 class="mb-0 py-2" style="color: #000;">About <b style="color: #f87115;">Shine Airways India Pvt Ltd.</b></h3>
+                            <h2>
+                                We're truely dedicated to make your travel experience best
+                            </h2>
+                            <p class="mb-3">
+                                Shine Airways vacations is a leader in the global hospitality industry, with a
+                                distinctive collection and a worldwide reputation for excellence. Our diverse portfolio
+                                includes historic icons, elegant resorts and modern city center properties.
+                            </p>
+                            <p>We guarantee consistency throughout our collection of hotels and resorts by adhering
+                                strictly to company-wide standards. Central purchasing ensures the same high-quality
+                                amenities are available to all guests wherever they visit. All these and more make every
+                                Shine Airways vacations an extraordinary place.
+                            </p>
+                            <div class="about-dest-left-bottom pt-md-4 pt-3">
+                                <ul class="d-flex justify-content-between p-0">
+                                    <li class="me-2 d-none d-md-block">
+                                        <img src="assets/images/holidays/about_left_5.webp" alt="">
+                                    </li>
+                                    <li class="me-2 d-none d-md-block">
+                                        <img src="assets/images/holidays/about_left_4.webp" alt="">
+                                    </li>
+                                    <li class="me-2 d-none d-md-block">
+                                        <img src="assets/images/holidays/about_left_3.webp" alt="">
+                                    </li>
+                                    <li class="me-2 d-none d-md-block">
+                                        <img src="assets/images/holidays/about_left_2.webp" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/holidays/about_left_1.webp" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="about-dest-right d-none d-lg-block">
+                            <img src="assets/images/holidays/about_left_img.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Choose Section -->
+    <section class="about-choose-section py-lg-5 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="about-choose-content">
+                        <h2 class="fw-bold">Why Choose Us</h2>
+                        <p>We understand that every journey is a personal story waiting to unfold. That’s why we go the extra mile to provide personalized attention, guiding you every step of the way. Whether you seek thrilling adventures, cultural encounters, or tranquil retreats, we are here to bring your travel dreams to life.</p>
+                        <p class="mt-xl-4 mt-3">With Shine Airways Worldwide Vacations, expect nothing less than extraordinary. Join us on a voyage of discovery, where every moment is crafted to perfection, and every experience is designed to inspire. Let us redefine the way you explore the world, one unforgettable journey at a time. Welcome to a world of limitless possibilities with Shine Airways Worldwide Vacations.</p>
+                        <div class="about-featured mb-0 pt-4">
+                            <ul class="p-0">
+                                <li>Safety Travel System</li>
+                                <li>, Budget-Friendly Tour</li>
+                                <li>, Expert Trip Planning</li>
+                                <li>Fast Communication</li>
+                                <li>, Right Solution &amp; Guide</li>
+                                <li>, Customer Support</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 d-none d-md-block">
+                    <div class="about-choose-img">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 mt-sm-5 mt-2 mb-4">
+                                <img src="assets/images/holidays/about_choose_1.webp" alt="">
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <img src="assets/images/holidays/about_choose_2.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="about-choose-down">
+                        <p class="mt-lg-4 mt-3">The prime objective to start the company was to provide mesmerizing travel options with
+                            customized economical benefits to the travellers’ right under one roof. In short, SHINE AIRWAYS
+                            world wide vacations has been established to make its mark in providing the choicest of
+                            hassle free luxury travel experiences, which everyone can afford with ease.</p>
+                        <p class="mt-lg-4 mt-3">The vast empire of SHINE AIRWAYS worldwide vacations is currently spread across the globe with 250
+                            travel associates and 6,500+ ties up collaborative properties. In 64+ hotel brands in
+                            accross the worldwide.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-choose-box mt-4 pt-lg-5 pt-4">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                        <div class="about-choose-item py-5 bg-white text-center">
+                            <div class="about-choose-icon mb-2">
+                                <img src="assets/images/icon/about_call.png" alt="">
+                            </div>
+                            <div class="about-choose-content pt-4">
+                                <h4 class="fw-bold"><a href="#">Advice &amp; Support</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                        <div class="about-choose-item py-5 bg-white text-center">
+                            <div class="about-choose-icon mb-2">
+                                <img src="assets/images/icon/about_global.png" alt="">
+                            </div>
+                            <div class="about-choose-content pt-4">
+                                <h4 class="fw-bold"><a href="#">Air Ticketing</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                        <div class="about-choose-item py-5 bg-white text-center">
+                            <div class="about-choose-icon mb-2">
+                                <img src="assets/images/icon/about_building.png" alt="">
+                            </div>
+                            <div class="about-choose-content pt-4">
+                                <h4 class="fw-bold"><a href="#">Hotel Services</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                        <div class="about-choose-item py-5 bg-white text-center">
+                            <div class="about-choose-icon mb-2">
+                                <img src="assets/images/icon/about_location.png" alt="">
+                            </div>
+                            <div class="about-choose-content pt-4">
+                                <h4 class="fw-bold"><a href="#">Tour Packages</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="mission-sec p-lg-5 p-md-4 p-3">
+        <div class="container">
+            <div class="row py-xl-5 py-4">
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <div class="mission-head pt-sm-5 pt-0 pt-lg-0">
+                        <div class="mission-head-image-1">
+                            <img src="assets/images/banner/mission-head-img-1.jpg" class="img-responsive">
+                        </div>
+                        <div class="mission-head-image-2">
+                            <img src="assets/images/banner/mission-head-img-2.jpg" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="mission-head ps-xl-5 ps-md-4 ps-sm-3">
+                        <h5>Our Value</h5>
+                        <h2 class="fw-bold text-capitalize">we simplify the travel experiences</h2>
+                        <p>With Travel Shine Airways India your vacation gets even more enjoyable and you take away millions of golden memories.</p>
+                        <p class="pt-2">At Shine Airways, we believe that travel should be exciting, not stressful. That's why we are dedicated to simplifying
+                            every part of the journey — from easy booking options and smooth check-ins to comfortable flights and seamless customer service.
+                            Our goal is to remove the common hassles of travel, allowing passengers to focus on what truly matters: enjoying the journey and
+                            reaching their destinations with peace of mind. With innovative technology, personalized care, and a commitment to excellence,
+                            Shine Airways continues to make travel simpler, smoother, and more enjoyable for everyone.
+                        </p>
+                        <p class="pt-3">With Shine Airways, traveling isn’t just about getting there — it’s about enjoying every moment along the way.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-12 my-3">
+                    <div class="our-vision">
+                        <div class="mission-head-box p-4 text-center my-3">
+                            <img class="p-2" src="assets/images/icon/mission_icon.png" alt="">
+                        </div>
+                        <h3>OUR VISION</h3>
+                        <p>Shine Airways is committed to providing affordable travel options for our customers. Our team
+                            of experts curate travel packages that cater to all the needs and expectations of our
+                            customers. With an aim to expand our business nationwide, we will have certified travel
+                            agents at every Shine Airways location, who will offer comprehensive assistance to our
+                            users. Our ultimate goal is to make travel accessible and affordable for everyone.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 my-3">
+                    <div class="our-vision">
+                        <div class="mission-head-box p-4 text-center my-3">
+                            <img class="p-2" src="assets/images/icon/vision_icon.png" alt="">
+                        </div>
+                        <h3>OUR MISSION</h3>
+                        <p>We're not just another airline – we're a travel partner committed to making your journey
+                            seamless and stress-free. With Shine Airways' nationwide expansion plans, our certified
+                            travel agents will be available at every location, ready to provide comprehensive assistance
+                            and personalized recommendations for your dream vacation. Our mission is simple: to make
+                            travel accessible and affordable for everyone. Say goodbye to sky-high prices and hello to
+                            unforgettable adventures with Shine Airways. Book your ticket today and let us take you on a journey of a lifetime!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12  my-3">
+                    <div class="our-vision">
+                        <div class="mission-head-box p-4 text-center my-3">
+                            <img class="p-2" src="assets/images/icon/value_icon.png" alt="">
+                        </div>
+                        <h3>OUR VALUES</h3>
+                        <p>Shine Airways is built upon the principle that ethics and morality are non-negotiable. We
+                            highly value the trust and time our customers entrust us with. Our focus is to deliver
+                            top-notch travel experiences through meticulously curated vacation packages. Beyond
+                            services, we pledge to preserve the true essence of travel – be it adventure or relaxation –
+                            with the utmost integrity. This unwavering dedication sets Shine Airways apart as a symbol
+                            of responsible and exceptional travel, where principles remain uncompromised.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mission-bot-sec py-sm-5 py-4">
+        <div class="container">
+            <div class="mission-bot-cnt">
+                <h2 class="fw-bold text-capitalize">Our Signature Excellence – What Makes Us Unique</h2>
+            </div>
+            <div class="mission-bot-cnt-1 pt-3">
+                <h2 class="fw-bold text-capitalize">Award-Winning / Recognized Excellence</h2>
+                <p>Our company, honored with multiple awards, ranks among the top agencies in Delhi NCR, earning certificates of Excellence, 
+                    Incorporation, and Appreciation. Driven by our passion for our profession, we’ve been named one of the "Best Places to Work" in Delhi NCR on multiple occasions.</p>
+            </div>
+            <div class="mission-bot-cnt-1 pt-3">
+                <h2 class="fw-bold text-capitalize">Passionate Workers / Enthusiastic Staff</h2>
+                <p>Shine Airways India has quickly established a distinct identity within a short time frame, a testament to our dedication and service. 
+                    This achievement is a direct result of our unwavering commitment to excellence. Our employees, driven by passion, are continuously working 
+                    towards taking the company to new heights and achieving greater success.
+                </p>
+            </div>
+            <div class="mission-bot-cnt-1 pt-3">
+                <h2 class="fw-bold text-capitalize">Upright Stance / Sturdy Attitude</h2>
+                <p>Shine Airways India is strategically positioned to expand its offerings, catering to diverse vacation needs and creating exceptional experiences across all areas of its operations.</p>
+            </div>
+            <div class="mission-bot-cnt-1 pt-3">
+                <h2 class="fw-bold text-capitalize">Acquaintance / Familiarity</h2>
+                <p>We treat our customers like family, not just clients. The love and care we have for each individual is felt deeply and wholeheartedly. This genuine connection reflects how closely we bond with our customers.</p>
+            </div>
+            <div class="mission-bot-cnt-1 pt-3">
+                <h2 class="fw-bold text-capitalize">Innovation at Its Core / The Heart of Our Uniqueness</h2>
+                <p>At Shine Airways, innovation is more than just a buzzword — it is at the very core of everything we do. From cutting-edge technology that enhances the travel experience to creative solutions that streamline operations, we are constantly evolving to meet the changing needs of our customers. Our commitment to innovation ensures that we don’t just follow industry trends.</p>
+            </div>
+            <div class="mission-bot-cnt-1 pt-3">
+                <h2 class="fw-bold text-capitalize">Commitment to Quality / Why We Stand Apart</h2>
+                <p>At Shine Airways, our commitment to quality is the foundation of everything we do. From the moment our passengers step on board, they experience a level of service that sets us apart from the rest. We uphold the highest standards in safety, comfort, and customer satisfaction, ensuring that every flight is a seamless and enjoyable experience. This unwavering dedication to excellence is what makes us a trusted and unique choice for travelers worldwide.</p>
+            </div>
+            <div class="mission-bot-cnt-1 pt-3">
+                <h2 class="fw-bold text-capitalize">Commitment to Quality / Why We Stand Apart</h2>
+                <p>At Shine Airways, our customer-centric approach is the driving force behind our success. We prioritize the needs, comfort, and satisfaction of every passenger, ensuring that their journey is tailored to their expectations. By listening to feedback, understanding preferences, and continually improving our services, we have built a loyal customer base that trusts us.</p>    
+            </div>
+            <div class="mission-bot-cnt-1 pt-3">
+                <h2 class="fw-bold text-capitalize">Our Unmatched Service / Setting New Standards in the Industry</h2>
+                <p>At Shine Airways, we take pride in delivering unmatched service that goes beyond expectations. Every interaction with our passengers is rooted in a commitment to excellence, creating a seamless and memorable experience from start to finish. By continually raising the bar and setting new standards in customer service, we ensure that our passengers enjoy a level of care and attention that sets us apart in the aviation industry. This dedication to service is what makes Shine Airways the preferred choice for travelers around the world.</p>    
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section class="feature_section box-sec feature-section">
+        <div class="container">
+            <h2 class="heading-feature">FEATURED ON</h2>
+            <div class="main_feature_box main_feature_box-new">
+                <div class="image-box image-box-new">
+                    <a href="http://www.entrepenuerstories.com/latest/shine-airways-your-travel-partner/"> <img src="assets/images/es.jpg" class="img-fluid" alt="Unsplashed Random" /></a>
+                </div>
+                <div class="image-box image-box-new">
+                    <a href="https://www.hindustantimes.com/brand-stories/shine-airways-your-trusted-travel-partner-for-affordable-and-quality-travel-experience-101682593184375.html"> <img src="assets/images/ht.jpg" alt="Unsplashed Random" /></a>
+                </div>
+                <div class="image-box image-box-new">
+                    <a href="https://m.dailyhunt.in/news/india/english/hindustanmetro-epaper-dh6ae7922f205548bc994645e1b7a6d8d9/shine+airways+your+travel+partner-newsid-dh6ae7922f205548bc994645e1b7a6d8d9_4fe6ea2083a111eda9cb31e42268ab12"> <img src="assets/images/dh.jpg" width="70%"></a>
+                </div>
+                <div class="image-box image-box-new">
+                    <a href="https://businesspress.in/indias-leading-flight-and-hotel-booking-company-shine-airways/"> <img src="assets/images/bp.jpg" alt="Unsplashed Random" /></a>
+                </div>
+                <div class="image-box image-box-new">
+                    <a href="https://www.theindiahunt.com/fastest-growing-flight-and-hotel-booking-company/" class="india_hunt"><img src="assets/images/thi.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Letter Section -->
+    <section class="pb-sm-5 pb-4 pt-0">
+        <div class="container">
+            <div class="row pt-lg-3">
+                <div class="col-lg-2 col-md-1"></div>
+                <div class="col-lg-8 col-md-10 box-border p-lg-4 p-3 subscribe franchise-sub-box">
+                    <h3>Subscribe To Our News Letter</h3>
+                    <form class="row g-3 justify-content-center">
+                        <div class="col-xl-10 col-lg-9 col-md-9 franchise-sub-box-input">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Email">
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn1 mb-sm-3">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-2 col-md-1"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Powered Section -->
+    <!-- <section class="powered-section">
+        <div class="container pb-4">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading mt-3">
+                        <h1>Powered By</h1>
+                    </div>
+                </div>
+                <div class="col-md-12 py-md-4 py-3">
+                    <div class="Marquee">
+                        <div class="Marquee-content">
+                            <div class="Marquee-tag"><img src="assets\images\sllider-logo\1.png" alt="" width="300px"></div>
+                            <div class="Marquee-tag"><img src="assets\images\sllider-logo\2.jpg" alt=""></div>
+                            <div class="Marquee-tag"><img src="assets\images\sllider-logo\3.jpg" alt=""></div>
+                            <div class="Marquee-tag"><img src="assets\images\sllider-logo\4.jpg" alt=""></div>
+                            <div class="Marquee-tag"><img src="assets\images\sllider-logo\5.jpg" alt=""></div>
+                            <div class="Marquee-tag"><img src="assets\images\sllider-logo\6.jpg" alt=""></div>
+                            <div class="Marquee-tag"><img src="assets\images\sllider-logo\7.jpg" alt=""></div>
+                            <div class="Marquee-tag"><img src="assets\images\sllider-logo\8.jpg" alt=""></div>
+                            <div class="Marquee-tag"><img src="assets\images\sllider-logo\9.jpg" alt=""></div>
+                            <div class="Marquee-tag"><img src="assets\images\sllider-logo\10.jpg" alt=""></div>
+                            <div class="Marquee-tag"><img src="assets\images\sllider-logo\11.jpg" alt=""></div>
+                            <div class="Marquee-tag"><img src="assets\images\sllider-logo\12.jpg" alt=""></div>
+                            <div class="Marquee-tag"><img src="assets\images\sllider-logo\13.jpg" alt=""></div>
+                            <div class="Marquee-tag"><img src="assets\images\sllider-logo\14.jpg" alt=""></div>
+                            <div class="Marquee-tag"><img src="assets\images\sllider-logo\15.jpg" alt=""></div>
+                            <div class="Marquee-tag"><img src="assets\images\sllider-logo\16.jpg" alt=""></div>
+                            <div class="Marquee-tag"><img src="assets\images\sllider-logo\17.jpg" alt=""></div>
+                            <div class="Marquee-tag"><img src="assets\images\sllider-logo\18.jpg" alt=""></div>
+                            <div class="Marquee-tag"><img src="assets\images\sllider-logo\19.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Slider Section -->
+    <div class="text-center mar-slider-head mt-3 mt-md-0">
+        <h2><strong style="color: #ff6000;">Associate Brands </strong> with Shine Airways</h2>
+    </div>
+
+    <div class="Marquee pt-3 pb-4">
+        <div class="Marquee-content">
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\hotel_1.png" alt="" width="300px"></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\hotel_2.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\hotel_3.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\hotel_4.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\hotel_5.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\hotel_6.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\hotel_7.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\hotel_8.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\hotel_9.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\hotel_10.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\hotel_11.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\hotel_12.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\hotel_13.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\hotel_14.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\hotel_15.png" alt=""></div>
+        </div>
+    </div>
+
+    <div class="text-center mar-slider-head">
+        <h2><strong style="color: #ff6000;">Travel Partners </strong> with Shine Airways</h2>
+    </div>
+
+    <div class="Marquee pt-3 pb-4">
+        <div class="Marquee-content">
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\travel_1.png" alt="" width="300px"></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\travel_2.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\travel_3.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\travel_8.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\travel_4.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\travel_14.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\travel_5.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\travel_7.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\travel_10.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\travel_11.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\travel_12.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\travel_6.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\travel_13.png" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\travel_9.png" alt=""></div>
+        </div>
+    </div>
+
+    <div class="text-center mar-slider-head">
+        <h2><strong style="color: #ff6000;">Airlines Partners</strong> with Shine Airways</h2>
+    </div>
+
+    <div class="Marquee pt-3 pb-md-5 pb-4">
+        <div class="Marquee-content">
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\1.jpg" alt="" width="300px"></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\2.jpg" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\3.jpg" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\4.jpg" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\5.jpg" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\6.jpg" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\7.jpg" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\8.jpg" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\9.jpg" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\10.jpg" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\11.jpg" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\12.jpg" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\13.jpg" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\14.jpg" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\15.jpg" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\16.jpg" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\17.jpg" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\18.jpg" alt=""></div>
+            <div class="Marquee-tag"><img src="assets\images\sllider-logo\19.jpg" alt=""></div>
+        </div>
+    </div>
+
+
+</main>
+
+<!-- Call Icon -->
+<a href="tel:7303555430" class="float call-icon" target="_blank"><i class="fa fa-phone my-float"></i></a>
+
+<!-- Mobile Footer Menu Content -->
+<div class="fix-footer-icon">
+    <div class="footer_nav footer-nav-display" style="text-align: center">
+        <ul>
+            <li><a href="https://www.shineairways.com/index.php">Home</a></li>
+            <li><a href="#" data-target="#login" data-toggle="modal" class="text-light">My Account</a></li>
+            <li><a href="https://www.shineairways.com/domestic-packages.php" class="text-light">Holidays</a></li>
+            <li><a href="#" data-target="#login" data-toggle="modal" class="text-light">Wallet</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- Footer Start -->
+<footer class="text-center text-lg-start text-muted bg-footer">
+    <div class="pt-md-5 pt-4">
+        <div class="container text-center text-md-start">
+            <div class="row useful_link">
+                <div class="col-md-6 col-lg-4 col-xl-4 col-12 mx-auto mb-md-4 mb-3 footer-field">
+                    <h2 class="fw-bold mb-xxl-4 mb-xl-3 mb-sm-3 mb-2"> Shine Airways</h2>
+                    <p class="fw-color mb-1">Travel Shine Airways Services India Pvt. Ltd. The Company is recognizes NCT & MCA Certified.</p>
+                    <p class="mb-2">G-69, G-Block Sector-63, Noida Gautam Buddh Nagar Uttar Pradesh – 201301.</p>
+                    <p><span class="fw-bold">Phone:</span>
+                        <a href="tel:8506035512" class="text-light">+91-8506035512</a><br>
+                    <p>
+                        <!-- <span class="fw-bold">Helpline:</span> -->
+                        <!-- <a href="tel:8506035512" class="text-light">+91-8506035512</a><br> -->
+                        <span class="fw-bold">For Holidays Support:</span>
+                        <a href="tel:01204439885" class="text-light">0120-4439885</a><br>
+                        <span class="fw-bold">For Info:</span>
+                        <a href="mailto:info@shineairways.com" class="text-light">info@shineairways.com</a><br>
+                        <span class="fw-bold">For Holidays Packages:</span>
+                        <a href="mailto:holidays@shineairways.com" class="text-light">holidays@shineairways.com</a><br>
+                        <span class="fw-bold">For Career:</span>
+                        <a href="mailto:hr@shineairways.com" class="text-light"> hr@shineairways.com</a><br>
+                        <span class="fw-bold">For Academy:</span>
+                        <a href="mailto:academy@shineairways.com" class="text-light"> academy@shineairways.com</a><br>
+                    </p>
+                </div>
+                <div class="col-md-6 col-lg-2 col-xl-3 col-6 mx-auto mb-md-4 mb-3 footer-field">
+                    <h2 class="fw-bold mb-xxl-4 mb-xl-3 mb-sm-3 mb-2">Useful Links</h2>
+                    <ul class="footer_link">
+                        <li><a href="https://www.shineairways.com/index.php">Home</a></li>
+                        <li><a href="https://www.shineairways.com/about_us.php">About Us</a></li>
+                        <li><a href="https://www.shineairways.com/career.php">Career</a></li>
+                        <li><a href="https://www.shineairways.com/domestic-packages.php">Packages</a></li>
+                        <li><a href="https://www.shineairways.com/services.php">Services</a></li>
+                        <li><a href="https://www.shineairways.com/contact_us.php">Contact Us</a></li>
+                        <li><a href="https://www.shineairways.com/faq.php">FAQ</a></li>
+                        <li><a href="https://www.shineairways.com/refund-policy.php">Refund Policy</a></li>
+                        <li><a href="https://www.shineairways.com/terms&condition.php">Terms & Conditions</a></li>
+                    </ul>
+                    <div class="ft-img">
+                        <img src="https://www.shineairways.com/assets/images/icon/trust_ft.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2 col-xl-3 col-6 mx-auto mb-md-4 mb-3 footer-field">
+                    <h2 class="fw-bold mb-xxl-4 mb-xl-3 mb-sm-3 mb-2">Quick Links</h2>
+                    <ul class="footer_link">
+                        <li><a href="https://www.shineairways.com/academy.php">Academy</a></li>
+                        <li><a href="https://www.shineairways.com/vacation_package.php">Membership</a></li>                        
+                        <li><a href="https://www.shineairways.com/why_vacation.php">Why Vacation</a></li>                        
+                        <li><a href="https://www.shineairways.com/member_login.php">Member Login</a></li>
+                        <li><a href="https://www.shineairways.com/banquet_booking.php">Banquet Booking</a></li>
+                        <li><a href="https://www.shineairways.com/property_booking.php">Property Booking</a></li>
+                        <li><a href="https://www.shineairways.com/paynow.php">Pay Now</a></li>
+                        <li><a href="https://www.shineairways.com/meeting_code.php">Meeting Code</a></li>
+                        <li><a href="https://www.shineairways.com/redeem_voucher.php">Redeem Voucher</a></li>
+                        <li><a href="https://www.shineairways.com/refer_friend.php">Refer a friend</a></li>
+                        <li><a href="https://www.shineairways.com/caution.php">Privacy Policy</a></li>
+                        <li><a href="https://www.shineairways.com/packages-policy.php">Packages Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xl-2 col-12 mx-auto mb-md-4 mb-sm-3 footer-field">
+                    <h2 class="fw-bold mb-xxl-4 mb-xl-3 mb-sm-3 mb-2">More Links</h2>
+                    <ul class="footer_link">
+                        <li><a href="https://www.shineairways.com/akasha-air.php">AkasaAir</a></li>
+                        <li><a href="https://www.shineairways.com/air-india.php">Air India</a></li>
+                        <li><a href="https://www.shineairways.com/vistara.php">Vistara</a></li>
+                        <li><a href="https://www.shineairways.com/spicejet.php">SpiceJet</a></li>
+                        <li><a href="https://www.shineairways.com/indigo-airlines.php">Indigo Airlines</a></li>
+                        <li><a href="https://www.shineairways.com/airlines.php">Domestic Airlines</a></li>
+                        <li><a href="https://www.shineairways.com/reviews.php">Reviews</a></li>
+                        <li><a href="https://www.shineairways.com/events.php">Events</a></li>
+                    </ul>
+                    <div>
+                        <h3 class="py-0 fw-bold" style="color: #fff;">Follow Us</h3>
+                    </div>
+                    <div class="top_social_media py-md-1 py-0 d-flex align-items-center justify-content-md-start gap-lg-2 gap-4 mb-3 mb-md-">
+                        <a href="https://www.facebook.com/shineairways" target="_blank"><i class="fa fa-facebook-official" style="color:#0866ff;" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/shineairways_/" target="_blank"><i class="fa fa-instagram" style="color:#fc3925;" aria-hidden="true"></i></a>
+                        <a href="https://www.youtube.com/@shineairways6507" target="_blank"><i class="fa fa-youtube-play" style="color:#ff0000;" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/ShineAirways" target="_blank"><i class="fa-brands fa-x-twitter" style="color:#000;"></i></a>
+                        <a href="https://www.linkedin.com/company/96441524/admin/feed/posts/" target="_blank"><i class="fa fa-linkedin-square" style="color:#0077b5;" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="p-md-4 p-3" style="background-color:#182128;">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 col-sm-5 col-md-6 col-lg-5 footer-last-text mb-2 mb-sm-0">
+                    <p> © Copyright <span class="fw-color"><a class="text-reset fw-bold"
+                                href="https://www.shineairways.com/">Shine Airways</a></span> 2019. All Rights Reserved
+                    </p>
+                    <p> Managed by <span class="fw-color1"><a class="text-reset fw-bold"
+                                href="https://www.shinewebtech.in/">ShineWeb Tech</a></span>
+                    </p>
+                </div>
+                <div class="col-12 col-sm-7 col-md-6 col-lg-7 pb-sm-0 pb-4">
+                    <div class="visa-sec align-items-center justify-content-md-end gap-md-2 gap-1">
+                        <img src="https://www.shineairways.com/assets/images/iata-logo1.png" class="img-fluid" alt="">
+                        <img src="https://www.shineairways.com/assets/images/certified.png" class="img-fluid" alt="">
+                        <img src="https://www.shineairways.com/assets/images/get_on_playstore.png" class="img-fluid" alt="">
+                        <img src="https://www.shineairways.com/assets/images/apple_store.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer End -->
+
+<!-- loader last end div -->
+<!-- </div> -->
+
+<!-- bootstrap js -->
+<script src="https://www.shineairways.com/assets/js/bootstrap.min.js"></script>
+<!-- plugin js scripts -->
+<script src="https://www.shineairways.com/assets/js/plugins.js"></script>
+<!-- app js -->
+<script src="https://www.shineairways.com/assets/js/app.js"></script>
+<!-- Slick Js -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://www.shineairways.com/assets/js/script.js"></script>
+<!-- jQuery (required for Slick) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Slick Slider JS -->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!-- jquery js -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<!-- booking popup js -->
+<script src="https://www.shineairways.com/assets/js/booking-popup.js"></script>
+<!-- Check out content Js -->
+<script src="https://www.shineairways.com/assets/js/sec-js/check-out-cnt.js"></script>
+
+<!-- Script -->
+<script>
+    $(".register__form").hide();
+    $(".sign-in__button").click(function(e) {
+        e.preventDefault();
+        $(this).addClass("active");
+        $(".register__button").removeClass("active");
+        $(".login__form").show();
+        $(".register__form").hide();
+        $("#edit-email").focus(); //Should appear after $('.login__form').show(); because if it's before that, the register form doesn't exist in the DOM
+    });
+    $(".register__button").click(function(e) {
+        e.preventDefault();
+        $(this).addClass("active");
+        $(".sign-in__button").removeClass("active");
+        $(".register__form").show();
+        $(".login__form").hide();
+        $("#edit-firstname").focus(); //Should appear after $('.register__form').show(); because if it's before that, the register form doesn't exist in the DOM
+    });
+</script>
+
+<!-- all booking popup js -->
+<script>
+    $('.header-booking-btn').click(function() {
+        $('.header-booking-popup').addClass('booking-popup-open');
+        $('.header-booking-popup').show();
+        $('body').addClass('no-scroll');
+    });
+    $('.header-booking-cnt-inner-close, .booking-popup-open::after').click(function() {
+        $('.header-booking-popup').removeClass('booking-popup-open');
+        $('.header-booking-popup').hide();
+        $('body').removeClass('no-scroll');
+    });
+</script>
+
+<!-- header login popup js -->
+<script>
+    $(document).ready(function () {
+
+        // forgot btn click popup
+        $('#login_popup_forgot_btn').click(function() {
+            $('#login_popup_forgot').removeClass('d-none');
+            $('#login_popup_form').addClass('d-none');
+        });
+        // forgot return btn click popup
+        $('#login_popup_return_btn').click(function() {
+            $('#login_popup_form').removeClass('d-none');
+            $('#login_popup_forgot').addClass('d-none');
+        });
+
+        // reset btn click popup
+        $('#login_popup_reset_btn').click(function() {
+            $('#login_popup_otp').removeClass('d-none');
+            $('#login_popup_forgot').addClass('d-none');
+        });
+        // otp return btn click popup
+        $('#login_popup_otp_return_btn').click(function() {
+            $('#login_popup_form').removeClass('d-none');
+            $('#login_popup_otp').addClass('d-none');
+        });
+
+        // submit otp btn click popup
+        $('#login_popup_otp_submit_btn').click(function() {
+            $('#login_popup_new_pswd').removeClass('d-none');
+            $('#login_popup_otp').addClass('d-none');
+        });
+
+        // new password continue btn click popup
+        $('#login_popup_new_pswd_continue_btn').click(function() {
+            $('#login_popup_done').removeClass('d-none');
+            $('#login_popup_new_pswd').addClass('d-none');
+        });
+
+        // done btn click popup
+        $('#login_popup_done_btn').click(function() {
+            $('#login_popup_form').removeClass('d-none');
+            $('#login_popup_done').addClass('d-none');
+        });
+
+    });
+</script>
+
+<!-- header login otp popup js -->
+<script>
+  const inputs = document.querySelectorAll('.otp-input');
+
+  inputs.forEach((input, index) => {
+    input.addEventListener('input', (e) => {
+      const val = input.value;
+
+      // Allow only numbers
+      if (!/^[0-9]$/.test(val)) {
+        input.value = '';
+        return;
+      }
+
+      // Enable and focus next input
+      if (index < inputs.length - 1) {
+        inputs[index + 1].disabled = false;
+        inputs[index + 1].focus();
+      }
+    });
+
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Backspace') {
+        if (input.value === '') {
+          if (index > 0) {
+            inputs[index - 1].focus();
+            inputs[index - 1].value = '';
+            for (let i = index; i < inputs.length; i++) {
+              inputs[i].value = '';
+              inputs[i].disabled = true;
+            }
+          }
+        }
+      }
+    });
+
+    // Prevent skipping ahead
+    input.addEventListener('focus', () => {
+      for (let i = 0; i < index; i++) {
+        if (inputs[i].value === '') {
+          inputs[i].focus();
+          break;
+        }
+      }
+    });
+  });
+
+  // Focus first input on load
+  window.addEventListener('load', () => {
+    inputs[0].focus();
+  });
+</script>
+
+<!-- website Pre loader js -->
+<!-- <script>
+  window.addEventListener("load", function () {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("content").style.display = "block";
+  });
+</script> -->
+<script src="https://www.shineairways.com/assets/js/toastr.min.js"></script>
+<!-- Tab Form Js  -->
+<script src="assets/js/sec-js/tab-form.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.card-text {
+  flex: 1;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-hover {
+  transition: transform 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: scale(1.05);
+}

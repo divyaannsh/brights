@@ -1,0 +1,13 @@
+.card-img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.zoom {
+  transition: transform 0.3s ease;
+}
+
+.zoom:hover {
+  transform: scale(1.2); /* Increase the zoom scale */
+}
