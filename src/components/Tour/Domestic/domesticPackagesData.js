@@ -314,7 +314,7 @@ export const domesticPackages = [
       Img_keralabackwaterstour_kerala_backwaters_tour_thumb_image_3_jpg,
     ],
     summary:
-      "Welcome to our Kerala tour package overview! Kerala, often referred to as \"Paradise on Earth,\" is a picturesque region in the northern part of India (correction: Southern India). It is known for its breathtaking natural beauty, serene landscapes, lush valleys, and enchanting lakes. Our tour package aims to give you an unforgettable experience of this mesmerizing destination. Here's an overview of what you can expect",
+      "Welcome to our Kerala tour package overview! Kerala, often referred to as \"Paradise on Earth,\" is a picturesque region in the southern part of India. It is known for its breathtaking natural beauty, serene landscapes, lush valleys, and enchanting lakes. Our tour package aims to give you an unforgettable experience of this mesmerizing destination. Here's an overview of what you can expect",
     inclusions: [
       "Welcome Drink.",
       "Room Decoration",
@@ -376,7 +376,7 @@ export const domesticPackages = [
       Img_lehladakhtour_leh_ladakh_tour_thumb_image_3_jpeg,
     ],
     summary:
-      "Welcome to our Ladakh Tour Package overview! Ladakh, often referred to as \"Paradise on Earth,\" is a picturesque region in the northern part of India. It is known for its breathtaking natural beauty, mmountains, hills station, fresh air and enchanting lakes. Our tour package aims to give you an unforgettable expeience of this mesmerizing destination. Here's an overview of what you can expect",
+      "Welcome to our Ladakh Tour Package overview! Ladakh, often referred to as \"Paradise on Earth,\" is a picturesque region in the northern part of India. It is known for its breathtaking natural beauty, mountains, hills station, fresh air and enchanting lakes. Our tour package aims to give you an unforgettable experience of this mesmerizing destination. Here's an overview of what you can expect",
     inclusions: [
       "3.09 % on total package.",
       "Train fare/ air fare.",
@@ -591,7 +591,7 @@ export const domesticPackages = [
     id: "rajasthan-tour",
     image: Rajasthan,
     name: "Rajasthan Tour",
-    location: "Rajsthan, India",
+    location: "Rajasthan, India",
     about:
       "Immerse yourself in the royal heritage of Rajasthan, exploring majestic palaces, forts, and vibrant markets in cities like Jaipur, Udaipur, and Jodhpur.",
     duration: "3 Nights & 4 Days",

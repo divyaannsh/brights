@@ -94,7 +94,7 @@ export default function PopularPackages() {
                       <div className="row" style={{ textAlign: "center" }}>
                         <div className="col-md-12">
                           <i className="fa-solid fa-location-dot"></i>
-                          <b> Thailand</b>
+                          <b> Vietnam</b>
                         </div>
                       </div>
                       <div className="review-area">{/* Review area */}</div>
@@ -197,7 +197,7 @@ export default function PopularPackages() {
                       <div className="row" style={{ textAlign: "center" }}>
                         <div className="col-md-12">
                           <i className="fa-solid fa-location-dot"></i>
-                          <b> Uttarakhand, India</b>
+                          <b> Himachal Pradesh, India</b>
                         </div>
                       </div>
                       <div className="review-area">
